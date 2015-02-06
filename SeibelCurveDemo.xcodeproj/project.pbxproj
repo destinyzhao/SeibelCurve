@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BDE389F196A86A100BD355C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDE389E196A86A100BD355C /* Foundation.framework */; };
+		7BDE38A1196A86A100BD355C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDE38A0196A86A100BD355C /* CoreGraphics.framework */; };
+		7BDE38A3196A86A100BD355C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDE38A2196A86A100BD355C /* UIKit.framework */; };
+		7BDE38A9196A86A200BD355C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE38A7196A86A200BD355C /* InfoPlist.strings */; };
+		7BDE38AB196A86A200BD355C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE38AA196A86A200BD355C /* main.m */; };
+		7BDE38AF196A86A200BD355C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE38AE196A86A200BD355C /* AppDelegate.m */; };
+		7BDE38B1196A86A200BD355C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE38B0196A86A200BD355C /* Images.xcassets */; };
+		7BDE38B8196A86A200BD355C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDE38B7196A86A200BD355C /* XCTest.framework */; };
+		7BDE38B9196A86A200BD355C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDE389E196A86A100BD355C /* Foundation.framework */; };
+		7BDE38BA196A86A200BD355C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDE38A2196A86A100BD355C /* UIKit.framework */; };
+		7BDE38C2196A86A200BD355C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE38C0196A86A200BD355C /* InfoPlist.strings */; };
+		7BDE38C4196A86A200BD355C /* SeibelCurveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE38C3196A86A200BD355C /* SeibelCurveDemoTests.m */; };
+		7BDE38CF196A86C300BD355C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE38CE196A86C300BD355C /* MainViewController.m */; };
+		7BDE38D3196A893800BD355C /* SeibelCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE38D2196A893800BD355C /* SeibelCurve.m */; };
+		7BDE38D6196A8A1E00BD355C /* note_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE38D5196A8A1E00BD355C /* note_image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BDE38BB196A86A200BD355C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BDE3893196A86A100BD355C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BDE389A196A86A100BD355C;
+			remoteInfo = SeibelCurveDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BDE389B196A86A100BD355C /* SeibelCurveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeibelCurveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDE389E196A86A100BD355C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7BDE38A0196A86A100BD355C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7BDE38A2196A86A100BD355C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7BDE38A6196A86A100BD355C /* SeibelCurveDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeibelCurveDemo-Info.plist"; sourceTree = "<group>"; };
+		7BDE38A8196A86A200BD355C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BDE38AA196A86A200BD355C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BDE38AC196A86A200BD355C /* SeibelCurveDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SeibelCurveDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7BDE38AD196A86A200BD355C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BDE38AE196A86A200BD355C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BDE38B0196A86A200BD355C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7BDE38B6196A86A200BD355C /* SeibelCurveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeibelCurveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDE38B7196A86A200BD355C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7BDE38BF196A86A200BD355C /* SeibelCurveDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeibelCurveDemoTests-Info.plist"; sourceTree = "<group>"; };
+		7BDE38C1196A86A200BD355C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BDE38C3196A86A200BD355C /* SeibelCurveDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeibelCurveDemoTests.m; sourceTree = "<group>"; };
+		7BDE38CD196A86C300BD355C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7BDE38CE196A86C300BD355C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7BDE38D1196A893800BD355C /* SeibelCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeibelCurve.h; sourceTree = "<group>"; };
+		7BDE38D2196A893800BD355C /* SeibelCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeibelCurve.m; sourceTree = "<group>"; };
+		7BDE38D5196A8A1E00BD355C /* note_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note_image.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BDE3898196A86A100BD355C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDE38A1196A86A100BD355C /* CoreGraphics.framework in Frameworks */,
+				7BDE38A3196A86A100BD355C /* UIKit.framework in Frameworks */,
+				7BDE389F196A86A100BD355C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDE38B3196A86A200BD355C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDE38B8196A86A200BD355C /* XCTest.framework in Frameworks */,
+				7BDE38BA196A86A200BD355C /* UIKit.framework in Frameworks */,
+				7BDE38B9196A86A200BD355C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BDE3892196A86A100BD355C = {
+			isa = PBXGroup;
+			children = (
+				7BDE38A4196A86A100BD355C /* SeibelCurveDemo */,
+				7BDE38BD196A86A200BD355C /* SeibelCurveDemoTests */,
+				7BDE389D196A86A100BD355C /* Frameworks */,
+				7BDE389C196A86A100BD355C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BDE389C196A86A100BD355C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BDE389B196A86A100BD355C /* SeibelCurveDemo.app */,
+				7BDE38B6196A86A200BD355C /* SeibelCurveDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BDE389D196A86A100BD355C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BDE389E196A86A100BD355C /* Foundation.framework */,
+				7BDE38A0196A86A100BD355C /* CoreGraphics.framework */,
+				7BDE38A2196A86A100BD355C /* UIKit.framework */,
+				7BDE38B7196A86A200BD355C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BDE38A4196A86A100BD355C /* SeibelCurveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7BDE38D4196A8A1E00BD355C /* Resource */,
+				7BDE38D0196A873700BD355C /* SeibelCurve */,
+				7BDE38AD196A86A200BD355C /* AppDelegate.h */,
+				7BDE38AE196A86A200BD355C /* AppDelegate.m */,
+				7BDE38CD196A86C300BD355C /* MainViewController.h */,
+				7BDE38CE196A86C300BD355C /* MainViewController.m */,
+				7BDE38B0196A86A200BD355C /* Images.xcassets */,
+				7BDE38A5196A86A100BD355C /* Supporting Files */,
+			);
+			path = SeibelCurveDemo;
+			sourceTree = "<group>";
+		};
+		7BDE38A5196A86A100BD355C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BDE38A6196A86A100BD355C /* SeibelCurveDemo-Info.plist */,
+				7BDE38A7196A86A200BD355C /* InfoPlist.strings */,
+				7BDE38AA196A86A200BD355C /* main.m */,
+				7BDE38AC196A86A200BD355C /* SeibelCurveDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BDE38BD196A86A200BD355C /* SeibelCurveDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BDE38C3196A86A200BD355C /* SeibelCurveDemoTests.m */,
+				7BDE38BE196A86A200BD355C /* Supporting Files */,
+			);
+			path = SeibelCurveDemoTests;
+			sourceTree = "<group>";
+		};
+		7BDE38BE196A86A200BD355C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BDE38BF196A86A200BD355C /* SeibelCurveDemoTests-Info.plist */,
+				7BDE38C0196A86A200BD355C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BDE38D0196A873700BD355C /* SeibelCurve */ = {
+			isa = PBXGroup;
+			children = (
+				7BDE38D1196A893800BD355C /* SeibelCurve.h */,
+				7BDE38D2196A893800BD355C /* SeibelCurve.m */,
+			);
+			path = SeibelCurve;
+			sourceTree = "<group>";
+		};
+		7BDE38D4196A8A1E00BD355C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7BDE38D5196A8A1E00BD355C /* note_image.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BDE389A196A86A100BD355C /* SeibelCurveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDE38C7196A86A200BD355C /* Build configuration list for PBXNativeTarget "SeibelCurveDemo" */;
+			buildPhases = (
+				7BDE3897196A86A100BD355C /* Sources */,
+				7BDE3898196A86A100BD355C /* Frameworks */,
+				7BDE3899196A86A100BD355C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeibelCurveDemo;
+			productName = SeibelCurveDemo;
+			productReference = 7BDE389B196A86A100BD355C /* SeibelCurveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BDE38B5196A86A200BD355C /* SeibelCurveDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDE38CA196A86A200BD355C /* Build configuration list for PBXNativeTarget "SeibelCurveDemoTests" */;
+			buildPhases = (
+				7BDE38B2196A86A200BD355C /* Sources */,
+				7BDE38B3196A86A200BD355C /* Frameworks */,
+				7BDE38B4196A86A200BD355C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BDE38BC196A86A200BD355C /* PBXTargetDependency */,
+			);
+			name = SeibelCurveDemoTests;
+			productName = SeibelCurveDemoTests;
+			productReference = 7BDE38B6196A86A200BD355C /* SeibelCurveDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BDE3893196A86A100BD355C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhaojinxiong;
+				TargetAttributes = {
+					7BDE38B5196A86A200BD355C = {
+						TestTargetID = 7BDE389A196A86A100BD355C;
+					};
+				};
+			};
+			buildConfigurationList = 7BDE3896196A86A100BD355C /* Build configuration list for PBXProject "SeibelCurveDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BDE3892196A86A100BD355C;
+			productRefGroup = 7BDE389C196A86A100BD355C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BDE389A196A86A100BD355C /* SeibelCurveDemo */,
+				7BDE38B5196A86A200BD355C /* SeibelCurveDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BDE3899196A86A100BD355C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDE38A9196A86A200BD355C /* InfoPlist.strings in Resources */,
+				7BDE38D6196A8A1E00BD355C /* note_image.png in Resources */,
+				7BDE38B1196A86A200BD355C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDE38B4196A86A200BD355C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDE38C2196A86A200BD355C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BDE3897196A86A100BD355C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDE38AF196A86A200BD355C /* AppDelegate.m in Sources */,
+				7BDE38D3196A893800BD355C /* SeibelCurve.m in Sources */,
+				7BDE38CF196A86C300BD355C /* MainViewController.m in Sources */,
+				7BDE38AB196A86A200BD355C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDE38B2196A86A200BD355C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDE38C4196A86A200BD355C /* SeibelCurveDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BDE38BC196A86A200BD355C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BDE389A196A86A100BD355C /* SeibelCurveDemo */;
+			targetProxy = 7BDE38BB196A86A200BD355C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BDE38A7196A86A200BD355C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDE38A8196A86A200BD355C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7BDE38C0196A86A200BD355C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDE38C1196A86A200BD355C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BDE38C5196A86A200BD355C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BDE38C6196A86A200BD355C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BDE38C8196A86A200BD355C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeibelCurveDemo/SeibelCurveDemo-Prefix.pch";
+				INFOPLIST_FILE = "SeibelCurveDemo/SeibelCurveDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7BDE38C9196A86A200BD355C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeibelCurveDemo/SeibelCurveDemo-Prefix.pch";
+				INFOPLIST_FILE = "SeibelCurveDemo/SeibelCurveDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7BDE38CB196A86A200BD355C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SeibelCurveDemo.app/SeibelCurveDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeibelCurveDemo/SeibelCurveDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SeibelCurveDemoTests/SeibelCurveDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7BDE38CC196A86A200BD355C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SeibelCurveDemo.app/SeibelCurveDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeibelCurveDemo/SeibelCurveDemo-Prefix.pch";
+				INFOPLIST_FILE = "SeibelCurveDemoTests/SeibelCurveDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BDE3896196A86A100BD355C /* Build configuration list for PBXProject "SeibelCurveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDE38C5196A86A200BD355C /* Debug */,
+				7BDE38C6196A86A200BD355C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDE38C7196A86A200BD355C /* Build configuration list for PBXNativeTarget "SeibelCurveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDE38C8196A86A200BD355C /* Debug */,
+				7BDE38C9196A86A200BD355C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDE38CA196A86A200BD355C /* Build configuration list for PBXNativeTarget "SeibelCurveDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDE38CB196A86A200BD355C /* Debug */,
+				7BDE38CC196A86A200BD355C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BDE3893196A86A100BD355C /* Project object */;
+}
